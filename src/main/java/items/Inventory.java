@@ -92,7 +92,7 @@ public class Inventory
      */
     public boolean isFull()
     {
-        return this.slots.currentSize >= this.capacity;
+        return this.slots.currentSize == this.capacity;
     }
 
     /**
